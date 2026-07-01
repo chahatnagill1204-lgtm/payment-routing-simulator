@@ -1,9 +1,27 @@
+# Virtual Environment
 .venv/
+
+# Python Cache
 __pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Pytest Cache
 .pytest_cache/
-.ruff_cache/
-.coverage
+
+# Python Build Files
 build/
 dist/
 *.egg-info/
-*.pyc
