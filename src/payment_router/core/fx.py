@@ -18,6 +18,7 @@ _MID_RATES_TO_USD: dict[str, Decimal] = {
     "EUR": Decimal("1.08"),
     "GBP": Decimal("1.27"),
     "CNY": Decimal("0.14"),
+    "INR": Decimal("0.0116"),
 }
 _AMOUNT_QUANTUM = Decimal("0.0001")
 _SUPPORTED_CURRENCIES = frozenset(_MID_RATES_TO_USD)
