@@ -52,9 +52,20 @@ flowchart LR
 - The best route can be indirect. A multi-hop Wise path can beat a direct SWIFT path on total cost, and a simple one-network price lookup will miss that structure.
 - Cost and speed trade off against each other. SEPA Instant can settle in about 10 seconds but only for `EUR -> EUR`, so users need a preference slider, not a single universal answer.
 
-## Dashboard
+## 📸 Application Screenshots
+
+### Dashboard
 
 ![Dashboard](assets/dashboard.png)
+
+### Route Result
+
+![Route Result](assets/route_result.png)
+
+### Analytics
+
+![Analytics](assets/analytics.png)
+
 
 ## Features
 
