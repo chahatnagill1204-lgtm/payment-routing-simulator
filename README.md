@@ -52,6 +52,10 @@ flowchart LR
 - The best route can be indirect. A multi-hop Wise path can beat a direct SWIFT path on total cost, and a simple one-network price lookup will miss that structure.
 - Cost and speed trade off against each other. SEPA Instant can settle in about 10 seconds but only for `EUR -> EUR`, so users need a preference slider, not a single universal answer.
 
+## Dashboard
+
+![Dashboard](assets/dashboard.png)
+
 ## Features
 
 - Models three payment networks: Wise via the public guest quote API, SEPA as a rules engine, and SWIFT as a correspondent-bank simulator.
