@@ -62,6 +62,32 @@ flowchart LR
 - Uses banker's rounding (`ROUND_HALF_EVEN`) for shared FX normalization, matching standard financial rounding practice.
 - Ships with 63 passing tests: Wise 5, SEPA 6, SWIFT 8, graph 8, FX 7, router 13, CLI 6, visualizer 5, plus models 3 and base 2.
 
+## 🚀 New Feature: INR Support
+
+The simulator has been extended to support **Indian Rupee (INR)**.
+
+### Changes Made
+
+- Added **INR** to the supported currencies.
+- Added INR base exchange rate in the FX engine.
+- Enabled payment routing between INR and other supported currencies.
+- Verified successful routing for **USD → INR** transactions.
+
+### Example
+
+```bash
+uv run remit route USD INR 100
+```
+
+Example Output:
+
+```
+Path: USD -> INR
+Total Fee: $7.49
+Final Amount: 8869.28 INR
+```
+``
+
 ## Quick start
 
 ```bash
